@@ -1,0 +1,17 @@
+{
+  "client_id": "https://ccmow.github.io/undermind-mcp-client/client-metadata.json",
+  "client_name": "WorkBuddy MCP Bridge",
+  "client_uri": "https://www.workbuddy.cn",
+  "redirect_uris": [
+    "http://127.0.0.1:20608/oauth/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none",
+  "scope": "mcp"
+}
